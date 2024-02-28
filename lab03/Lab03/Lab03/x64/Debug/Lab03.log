@@ -1,0 +1,7 @@
+﻿  Combi.cpp
+  Salesman.cpp
+  Source.cpp
+C:\Vanya\Study\Math_Programming\lab03\Lab03\Lab03\Salesman.cpp(64,8): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Vanya\Study\Math_Programming\lab03\Lab03\Lab03\Salesman.cpp(76,16): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  Создание кода...
+  Lab03.vcxproj -> C:\Vanya\Study\Math_Programming\lab03\Lab03\x64\Debug\Lab03.exe
