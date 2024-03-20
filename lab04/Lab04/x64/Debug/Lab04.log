@@ -1,0 +1,41 @@
+﻿Сборка начата 28.02.2024 17:11:03.
+Уровень детализации журнала: Normal.     1>Проект "D:\BSTU\MathProgramming\lab04\Lab04\Lab04.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Lab04.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt LCH.cpp LCS.cpp Source.cpp
+         LCH.cpp
+     1>D:\BSTU\MathProgramming\lab04\Lab04\LCH.cpp(32,22): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\BSTU\MathProgramming\lab04\Lab04\LCH.cpp(32,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\BSTU\MathProgramming\lab04\Lab04\LCH.cpp(31,6): warning C4101: n: неиспользованная локальная переменная
+         LCS.cpp
+         Source.cpp
+     1>D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(15,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(92,7): error C2374: x: переопределение; множественная инициализация
+       D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(52): message : см. объявление "x"
+     1>D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(93,3): error C2374: y: переопределение; множественная инициализация
+       D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(52): message : см. объявление "y"
+         Создание кода...
+     1>Сборка проекта "D:\BSTU\MathProgramming\lab04\Lab04\Lab04.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\BSTU\MathProgramming\lab04\Lab04\Lab04.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\BSTU\MathProgramming\lab04\Lab04\LCH.cpp(32,22): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\BSTU\MathProgramming\lab04\Lab04\LCH.cpp(32,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\BSTU\MathProgramming\lab04\Lab04\LCH.cpp(31,6): warning C4101: n: неиспользованная локальная переменная
+         D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(15,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(17,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+
+       "D:\BSTU\MathProgramming\lab04\Lab04\Lab04.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(92,7): error C2374: x: переопределение; множественная инициализация
+         D:\BSTU\MathProgramming\lab04\Lab04\Source.cpp(93,3): error C2374: y: переопределение; множественная инициализация
+
+    Предупреждений: 5
+    Ошибок: 2
+
+Прошло времени 00:00:00.97
